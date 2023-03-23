@@ -1,0 +1,148 @@
+{
+  "productos": [
+    {
+      "imagen": "../Imagenes/Productos/StarWars/unsplash_6FDXGY9J6y4.png",
+      "categoria": "Star Wars",
+      "nombre": "Taza Star Wars",
+      "precio": "$60,000",
+      "descripcion": "Taza de la serie Star Wars",
+      "id": "e2336dd8-f0b9-413a-8481-8fb22b105661"
+    },
+    {
+      "imagen": "../Imagenes/Productos/StarWars/unsplash_epRFE_hBNjo.png",
+      "categoria": "Star Wars",
+      "nombre": "Lego StarWars",
+      "precio": "$65,000",
+      "descripcion": "Lego de la serie StarWars",
+      "id": "6a1e6912-5985-4ab3-89cd-6e1810d94f1a"
+    },
+    {
+      "imagen": "../Imagenes/Productos/StarWars/unsplash_KeGToDVN0l4.png",
+      "categoria": "Star Wars",
+      "nombre": "Figura de Yoda",
+      "precio": "$60,000",
+      "descripcion": "Figura de Yoda de la serie de Star Wars",
+      "id": "1817639e-d7ba-4ca1-abf6-726481aeebc8"
+    },
+    {
+      "imagen": "../Imagenes/Productos/StarWars/unsplash_4OHkK555s1A.png",
+      "categoria": "Star Wars",
+      "nombre": "Figura Stormtruper",
+      "precio": "$68,000",
+      "descripcion": "Figura Stormtruper de la serie Star Wars",
+      "id": "190385bb-c131-4199-944e-e741ddee7bec"
+    },
+    {
+      "imagen": "../Imagenes/Productos/StarWars/unsplash_R8L1l9RN198.png",
+      "categoria": "Star Wars",
+      "nombre": "Figura Baby Yoda",
+      "precio": "$60,000",
+      "descripcion": "Figura Baby Yoda de la serie Star Wars",
+      "id": "a9718b51-1d23-4c68-bb2a-b4a7310efe9e"
+    },
+    {
+      "imagen": "../Imagenes/Productos/StarWars/unsplash_1VV1MRafd7A.png",
+      "categoria": "Star Wars",
+      "nombre": "Figura Kylo Ren",
+      "precio": "$63,000",
+      "descripcion": "Figura Kylo Ren de la serie Star Wars",
+      "id": "9984abae-5ee0-4d15-80be-be0723e2c43c"
+    },
+    {
+      "imagen": "../Imagenes/Productos/Consolas/unsplash_0POwK6iAiRQ.png",
+      "categoria": "Consolas",
+      "nombre": "Control Xbox",
+      "precio": "$60,000",
+      "descripcion": "Control de la consola Xbox",
+      "id": "2abb341b-fd1e-409d-ac4e-f5a49d1e8045"
+    },
+    {
+      "imagen": "../Imagenes/Productos/Consolas/unsplash_caNzzoxls8Q.png",
+      "categoria": "Consolas",
+      "nombre": "Control y consola PlayStation",
+      "precio": "$68,000",
+      "descripcion": "Control y consola Xbox",
+      "id": "34a5c2f4-4f66-4154-8e49-803c586e82f8"
+    },
+    {
+      "imagen": "../Imagenes/Productos/Consolas/unsplash_ZV7lnfyQLmA.png",
+      "categoria": "Consolas",
+      "nombre": "Consola SNES",
+      "precio": "$60,000",
+      "descripcion": "Consola SNES",
+      "id": "38d85342-5eb9-4fc3-bee8-d67998a84da0"
+    },
+    {
+      "imagen": "../Imagenes/Productos/Consolas/unsplash_wa5z9o9fgjw.png",
+      "categoria": "Consolas",
+      "nombre": "Controles WiiU",
+      "precio": "$62,000",
+      "descripcion": "Controles WiiU",
+      "id": "789e5bdc-d097-417a-a276-e43b73900cd8"
+    },
+    {
+      "imagen": "../Imagenes/Productos/Consolas/unsplash_k-xYhI3-gJM.png",
+      "categoria": "Consolas",
+      "nombre": "Game Boy Color",
+      "precio": "$67,000",
+      "descripcion": "Game Boy Color",
+      "id": "a2dad7e6-4486-482b-92e5-f23a29666489"
+    },
+    {
+      "imagen": "../Imagenes/Productos/Diversos/unsplash_fMP-oCze3AY.png",
+      "categoria": "Diversos",
+      "nombre": "Camisa Atari",
+      "precio": "$60,000",
+      "descripcion": "Camisa con logo de Atari",
+      "id": "8dc0e71b-bf5e-4cec-8284-ea8c2bfccac7"
+    },
+    {
+      "imagen": "../Imagenes/Productos/Diversos/unsplash_bUgaIaZysH0.png",
+      "categoria": "Diversos",
+      "nombre": "Camisa SNES",
+      "precio": "$60,000",
+      "descripcion": "Camisa con logo de SNES",
+      "id": "f15ac99d-e6da-47c8-a7a1-cd4d6df41a5c"
+    },
+    {
+      "imagen": "../Imagenes/Productos/Diversos/unsplash_sYVY_ZKwaxU.png",
+      "categoria": "Diversos",
+      "nombre": "Figura de Sonic",
+      "precio": "$63,000",
+      "descripcion": "Figura de Sonic",
+      "id": "a0fe4409-f7d0-4723-a644-c6690e00819b"
+    },
+    {
+      "imagen": "../Imagenes/Productos/Diversos/unsplash_jMT6BrgBuXU.png",
+      "categoria": "Diversos",
+      "nombre": "Despertador vintage",
+      "precio": "$60,000",
+      "descripcion": "Despertador vintage",
+      "id": "fc658d59-7767-45f4-acae-9bd9f94a3c90"
+    },
+    {
+      "imagen": "../Imagenes/Productos/Diversos/unsplash_MxVkWPiJALs.png",
+      "categoria": "Diversos",
+      "nombre": "Lentes VR",
+      "precio": "$69,000",
+      "descripcion": "Lentes de realidad virtual",
+      "id": "2ab8c2f2-264a-46e3-a7fb-5af2599e1e22"
+    },
+    {
+      "imagen": "../Imagenes/Productos/Diversos/unsplash_r27umXAelDc.png",
+      "categoria": "Diversos",
+      "nombre": "Botarga Pikachu",
+      "precio": "$65,000",
+      "descripcion": "Botarga Pikachu",
+      "id": "579fd23f-0669-49fa-8dbd-3981407ec841"
+    },
+    {
+      "imagen": "../Imagenes/Productos/Consolas/unsplash_Zjn4dT993-g.png",
+      "categoria": "Consolas",
+      "nombre": "Xbox",
+      "precio": "$65,000",
+      "descripcion": "Consola de Xbox",
+      "id": "ae5eefac-4201-48de-b23d-96a60d61b468"
+    }
+  ]
+}

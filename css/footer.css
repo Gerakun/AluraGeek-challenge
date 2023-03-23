@@ -1,0 +1,222 @@
+.footer{   
+    background: #EAF2FD;
+    width: 1348px;
+    height: 368px;
+    display: flex;
+    
+}
+
+.footer__container{
+    width: 85%;
+    height: 240px;
+    margin-top: 64px;
+    margin-left: 7.5%;
+    margin-right: 7.5%;
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between; 
+}
+
+.footer__container__logo{
+    width: 176px;
+    height: 50px;
+    padding: 0px;
+}
+
+.footer__container__ul{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 10px;
+    gap: 22px;
+    
+}
+
+.footer__container__ul a{
+    text-decoration: none;
+    color: #464646;
+}
+
+.footer__container__ul-li{
+    font-family: Raleway;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+}
+
+.footer__container__form{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 8px;
+
+    width: 560px;
+    height: 240px;
+}
+
+.footer__container__form-titulo{
+    font-family: Raleway;
+font-style: normal;
+font-weight: 700;
+font-size: 16px;
+line-height: 19px;
+color: #464646;
+}
+
+.footer__container__form-input{
+    width: 550px;
+    height: 56px;
+    background: #FFFFFF;
+    border-radius: 4px;
+    font-family: Raleway;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 16px;
+    color: #A2A2A2;
+    border: 1px solid silver;
+    outline: none;
+}
+.input-container--invalid .footer__container__form-input{
+    border: 1px solid red;
+    background: #f4b9b9;
+}
+
+.input-message-error { 
+    display: none;
+  }
+
+.input-container--invalid .input-message-error {
+    color: #df2525;
+    display: block;
+    margin-top: 10px;
+    padding-left: 250px;
+  }
+
+.footer__container__form-textarea{
+    width: 550px;
+    height: 82px;
+    background: #FFFFFF;
+    border-radius: 4px;
+    font-family: Raleway;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 50px;
+    color: #A2A2A2;
+    border: 1px solid silver;
+    outline: none;
+}
+.textarea-container--invalid .footer__container__form-textarea{
+    border: 1px solid red;
+    background: #f4b9b9;
+}
+
+.textarea-message-error { 
+    display: none;
+  }
+
+.textarea-container--invalid .textarea-message-error {
+    color: #df2525;
+    display: block;
+    margin-top: 10px;
+    padding-left: 250px;
+  }
+
+.footer__container__form-btn{
+    background: #2A7AE4;
+    width: 144px;
+    height: 51px;
+    font-family: Raleway;
+    font-weight: 400;
+    font-size: 16px;
+    border: 1px solid silver;
+    color: white;
+}
+
+
+
+@media screen and (max-width: 1020px) {
+    .footer{ 
+        width: 768px;
+    }
+
+    .footer__container{
+        width: 95%;
+        height: 85%;
+        margin: auto;
+
+    }
+
+    .footer__container__ul{
+        width: 30%;
+        margin-right: 10%;
+        position: static;
+        margin-top: 50px;
+        margin-left: -160px;
+        padding: 5px;
+    }   
+    
+    .footer__container__form{
+        height: 90%;
+        margin-top: 2%;
+        gap: 16px;
+    }
+    
+    .footer__container__form-input{
+        width: 434px;
+    
+    }
+    
+    .footer__container__form-textarea{
+        width: 434px;
+    }
+}
+
+@media screen and (max-width: 450px){
+    .footer{
+        width: 360px;
+        height: max-content;
+    }
+
+    .footer__container{
+        flex-wrap: wrap;
+    }
+
+   .footer__container__logo{
+    position: absolute;
+    margin-left: 22%;
+  
+   }
+
+    .footer__container__ul{
+        width: 80%;
+        align-items: center;
+        margin-left: 11%;      
+    }
+
+    .footer__container__form-input{
+        width: 328px;
+    
+    }
+    
+    .footer__container__form-textarea{
+        width: 328px;
+    }
+    .footer__container__form-btn{
+        margin-bottom: 10px;
+    }
+
+    .input-container--invalid .input-message-error {
+        padding-left: 10px;
+    }
+
+    .textarea-container--invalid .textarea-message-error {
+        padding-left: 10px;
+      }
+}
+
+
+

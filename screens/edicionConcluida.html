@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="Es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/reset.css">
+    <script src="https://kit.fontawesome.com/77d76d86b5.js" crossorigin="anonymous"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,200;0,400;0,700;1,200;1,400;1,700&display=swap" rel="stylesheet">
+    <title>AluraGeek</title>
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../css/menu.css">
+    <link rel="stylesheet" href="../css/edicionConcluida.css">
+    <link rel="stylesheet" href="../css/footer.css">
+    <link rel="stylesheet" href="../css/rodapie.css">
+</head>
+<body>
+    <section class="menu">
+        <header class="menu__header">
+            <img class="menu__header-logo" src="../Imagenes/Logo.png" alt="Logo AluraGeek">
+            <button class="menu__header-btn"><a href="../screens/productos.html">Menú Administrador</a></button>     
+        </header>
+    </section>
+    <section class="concluida">
+        <div class="concluida__container">
+            <img class="concluida__icon" src="/Imagenes/check.gif" alt="check-gif">
+            <p class="concluida__parrafo">¡Producto editado con éxito!</p>
+            <div>
+                <button class="concluida__btn"><a href="../screens/productos.html">Ver productos</a></button>
+            </div>
+            
+        </div>  
+    </section>
+    <section class="footer">
+        <div class="footer__container">
+            <img class="footer__container__logo" src="../Imagenes/Logo.png" alt="Logo AluraGeek">
+            <ul class="footer__container__ul">
+                <li class="footer__container__ul-li"><a href="#">Quienes somos </a></li>
+                <li class="footer__container__ul-li"><a href="#">Política de privacidad</a></li>
+                <li class="footer__container__ul-li"><a href="#">Programa de fidelidad</a></li>
+                <li class="footer__container__ul-li"><a href="#">Nuestras tiendas</a></li>
+                <li class="footer__container__ul-li"><a href="#">Quiero ser franquiciado</a></li>
+                <li class="footer__container__ul-li"><a href="#">Anúncie aquí</a></li>
+            </ul>
+            <form class="footer__container__form">
+                <h3 class="footer__container__form-titulo">Hable con nosotros</h3>
+                <div class="input-container">
+                    <input type="text" id="nombre" class="footer__container__form-input"  placeholder="Nombre" required  pattern="[\s\S]{4,30}" data-tipo="nombre">
+                    <span class="input-message-error">Este campo no es valido</span>
+                </div>
+                <div class="textarea-container">
+                    <textarea class="footer__container__form-textarea" id="mensaje" placeholder="Escribe tu mensaje" cols="30" rows="10" required minlength="10" maxlength="300" data-tipo="textoMensaje"></textarea>
+                    <span class="textarea-message-error">Este campo no es valido</span>
+                </div>
+                <button class="footer__container__form-btn">Enviar mensaje</button>
+            </form>
+        </div>    
+    </section>
+    <section class="rodapie">
+        <div class="rodapie__container">
+            <p class="rodapie__parrafo">Desarrollado por:</p>
+            <p class="rodapie__parrafo">Rubén Gerardo Rios Hernández</p>
+            <p class="rodapie__parrafo">2023</p>
+        </div>   
+    </section>
+<script type="module" src="../js/app.js"></script>
+</body>
+</html>

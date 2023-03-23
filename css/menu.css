@@ -1,0 +1,127 @@
+.menu{
+    
+    background: #FFFFFF;
+    height: 115px;
+    width: 1348px;
+    left: 0px;
+    top: 0px;
+    border-radius: 0px;
+
+}
+
+.menu__header{
+    width: 85%;
+    height: 100%;
+    margin-left: 7.5%;
+    margin-right: 7.5%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.menu__header-barraBusqueda{
+    position: absolute;
+    padding: 200px;
+}
+
+.menu__header-input{
+    width: 393px;
+    height: 40px;
+    padding: 0 20px;
+    font-family: Raleway;
+    font-size: 18px;
+    color: black;
+    outline: none;
+    border: 1px solid silver;
+    border-radius: 20px;
+  
+}
+
+.menu__header__input-btn{
+    background: white;
+    position: absolute;
+    margin-top: -38px;
+    left: 69%;
+    width:35px;
+    height:35px;
+    line-height: 40px;
+    text-align:center;
+    color: #A2A2A2;
+    font-size: 30px;
+    border-radius: 30%;
+      
+}
+
+.menu__header-btn{
+    background: #FFFFFF;
+    width: 182px;
+    height: 51px;
+    font: Raleway;
+    font-weight: 400;
+    font-size: 16px;
+    border: 1px solid silver;
+}
+
+.menu__header-btn a{
+    text-decoration: none;
+    color: #2A7AE4;
+}
+
+@media screen and (max-width: 1020px){
+    .menu{
+        width: 768px;   
+    }
+    .menu__header{
+        width: 95%;
+        margin: auto;
+    }
+
+    .menu__header__input-btn{
+        left: 63%;
+    }
+    .menu__header-barraBusqueda input{
+        width: 255px;
+    }
+
+}
+
+@media screen and (max-width: 450px){
+    .menu{
+        width: 360px;
+        display: flex;
+    }
+    .menu__header{
+        height: 90%;
+        margin-top: 10px;
+        flex-wrap: wrap;
+     
+    }
+
+    .menu__header-logo{
+        width: 100px;
+        height: 28px;
+    }
+
+    .menu__header-btn{
+        width: 133px;
+        height: 40px;
+    }
+
+    .menu__header .menu__header-barraBusqueda{
+        order: 99;
+    }
+
+    .menu__header-barraBusqueda{
+         position: relative;
+         padding: 0px;
+      }
+    
+    .menu__header__input-btn{
+        margin-top: -38px;
+        left: 80%;  
+    }
+
+   
+
+    
+}

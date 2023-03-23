@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="Es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/reset.css">
+    <script src="https://kit.fontawesome.com/77d76d86b5.js" crossorigin="anonymous"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,200;0,400;0,700;1,200;1,400;1,700&display=swap" rel="stylesheet">
+    <title>AluraGeek</title>
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../css/menu.css">
+    <link rel="stylesheet" href="../css/banner.css">
+    <link rel="stylesheet" href="../css/galeriaProductos.css">
+    <link rel="stylesheet" href="../css/footer.css">
+    <link rel="stylesheet" href="../css/rodapie.css">
+    <script src="../js/jquery-3.6.4.min.js"></script>
+    <script src="../js/jquery.dataTables.min.js"></script>
+    <link rel="stylesheet" href="../css/search.css">
+</head>
+<body>
+    <section class="menu" id="inicio">
+        <header class="menu__header">
+            <img class="menu__header-logo" src="../Imagenes/Logo.png" alt="Logo AluraGeek">
+            <div class="menu__header-barraBusqueda">
+                <input class="menu__header-input" type="search" placeholder="¿Que deseas buscar?" id="search-input" name="search">
+                <div class="menu__header__input-btn">
+                    <i class="fa-solid fa-magnifying-glass" id="lupa"></i>
+                </div> 
+                <div class="search" id="search">
+                    <table class="search-table" id="searchTable">
+                        <thead><tr><td></td></tr></thead>
+                        <tbody>
+                            <tr>
+                                <td><a href="#inicio">Inicio</a></td>
+                            </tr>
+                            <tr>
+                                <td><a href="#starwars">Star Wars</a></td>
+                            </tr>
+                            <tr>
+                                <td><a href="#consolas">Consolas</a></td>
+                            </tr>
+                            <tr>
+                                <td><a href="#diversos">Diversos</a></td>
+                            </tr>
+                            <tr>
+                                <td><a href="#">Quienes somos</a></td>
+                            </tr>
+                            <tr>
+                                <td><a href="#">Política de privacidad</a></td>
+                            </tr>
+                            <tr>
+                                <td><a href="#">Programa de fidelidad</a></td>
+                            </tr>
+                            <tr>
+                                <td><a href="#">Nuestras tiendas</a></td>
+                            </tr>
+                            <tr>
+                                <td><a href="#">Quiero ser franquiciado</a></td>
+                            </tr>
+                            <tr>
+                                <td><a href="#">Anúncie aquí</a></td>
+                            </tr>
+                            <tr>
+                                <td><a href="#contacto">Hable con nosotros</a></td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+                
+            </div>    
+            <button class="menu__header-btn"><a href="screens/login.html">Login</a></button>        
+        </header>
+    </section>
+    <section class="banner">
+        <div class="banner__container">
+            <h3 class="banner__titulo">Febrero Promocional</h3>
+            <p class="banner__parrafo">Productos seleccionados con 33% de descuento</p>
+            <button class="banner__btn"><a href="../index.html">Inicio</a></button>
+        </div>   
+    </section>
+    <section class="galeriaProductos">
+        <div class="galeriaProductos__container">
+            <span class="galeriaProductos__container__span">
+                <h2 class="galeriaProductos__container_titulo">Todos los productos</h2>   
+            </span>
+            <div class="galeriaProductos__mercancia" data-todos>    
+            </div>
+        </div>  
+    </section>
+    <section class="footer">
+        <div class="footer__container">
+            <img class="footer__container__logo" src="../Imagenes/Logo.png" alt="Logo AluraGeek">
+            <ul class="footer__container__ul">
+                <li class="footer__container__ul-li"><a href="#">Quienes somos</a></li>
+                <li class="footer__container__ul-li"><a href="#">Política de privacidad</a></li>
+                <li class="footer__container__ul-li"><a href="#">Programa de fidelidad</a></li>
+                <li class="footer__container__ul-li"><a href="#">Nuestras tiendas</a></li>
+                <li class="footer__container__ul-li"><a href="#">Quiero ser franquiciado</a></li>
+                <li class="footer__container__ul-li"><a href="#">Anúncie aquí</a></li>
+            </ul>
+            <form class="footer__container__form">
+                <h3 class="footer__container__form-titulo">Hable con nosotros</h3>
+                <div class="input-container">
+                    <input type="text" id="nombre" class="footer__container__form-input"  placeholder="Nombre" required pattern="[\s\S]{4,30}" data-tipo="nombre">
+                    <span class="input-message-error">Este campo no es valido</span>
+                </div>
+                <div class="textarea-container">
+                    <textarea class="footer__container__form-textarea" id="mensaje" placeholder="Escribe tu mensaje" cols="30" rows="10" required minlength="10" maxlength="300" data-tipo="textoMensaje"></textarea>
+                    <span class="textarea-message-error">Este campo no es valido</span>
+                </div>
+                <button class="footer__container__form-btn">Enviar mensaje</button>
+            </form>
+        </div>    
+    </section>
+    <section class="rodapie">
+        <div class="rodapie__container">
+            <p class="rodapie__parrafo">Desarrollado por:</p>
+            <p class="rodapie__parrafo">Rubén Gerardo Rios Hernández</p>
+            <p class="rodapie__parrafo">2023</p>
+        </div>   
+    </section>
+    <script type="module" src="../js/app.js"></script>
+    <script type="module" src="../controllers/allproducts-controller.js"></script>
+    <script src="../js/buscador.js"></script>
+</body>
+</html>

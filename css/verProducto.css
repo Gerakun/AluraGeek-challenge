@@ -1,0 +1,91 @@
+.verProducto{
+    width:  1348px;
+    background: #E5E5E5;
+   
+}
+
+.verProducto__container{
+    width: 85%;
+    margin-left: 7.5%;
+    margin-right: 7.5%; 
+}
+
+.verProducto__container-verProducto{
+    display: flex;
+}
+
+.verProducto__img{
+    width: 560px;
+    height: 403px;
+}
+
+.verProducto__span{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 25px;
+    margin-left: 30px;
+    margin-right: 10px;
+}
+
+.verProducto__titulo{
+    font-family: Raleway;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 52px;
+    color: #464646;
+}
+
+.verProducto__precio{
+    font-family: Raleway;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    color: #464646;
+}
+
+.verProducto__descripcion{
+    font-family: Raleway;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    color: #464646;
+}
+
+@media screen and (max-width: 1020px){
+    .verProducto{
+        width: 768px;
+    }
+}
+
+@media screen and (max-width: 450px){
+    .verProducto{
+        width: 360px;
+    }
+
+    .verProducto__img{
+        width: 360px;
+        height: 192px;
+    }
+    .verProducto__container-verProducto{
+        flex-wrap: wrap;
+    }
+
+    .verProducto__span{
+        gap: 10px;
+        margin-top: 10px;
+        margin-bottom: 20px;
+    }
+
+    .verProducto__titulo{
+        font-size: 32px;
+    }
+
+    .verProducto__precio{
+        font-size: 16;
+    }
+
+    .verProducto__descripcion{
+        font-size: 14px;
+    }
+}
