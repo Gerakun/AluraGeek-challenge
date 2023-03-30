@@ -143,6 +143,14 @@
       "precio": "$65,000",
       "descripcion": "Consola de Xbox",
       "id": "ae5eefac-4201-48de-b23d-96a60d61b468"
+    },
+    {
+      "imagen": "https://i.pinimg.com/236x/b6/15/72/b615724aab1ceefade1e25ea01c56d64.jpg",
+      "categoria": "Star Wars",
+      "nombre": "Ejemplo",
+      "precio": "$960,000",
+      "descripcion": "}imagen de ejemplo para ver como funciona",
+      "id": "f4876019-5243-4e8b-8db3-18d54f60725a"
     }
   ]
 }
