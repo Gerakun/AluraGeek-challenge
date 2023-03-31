@@ -1,7 +1,7 @@
-const listaProductos = () => fetch("https://my-json-server.typicode.com/Gerakun/AluraGeek-challenge/productos").then((respuesta) => respuesta.json()); 
+const listaProductos = () => fetch("http://localhost:3000/productos").then((respuesta) => respuesta.json()); 
 
 const crearProducto = (imagen, categoria, nombre, precio, descripcion) => {
-    return fetch("https://my-json-server.typicode.com/Gerakun/AluraGeek-challenge/productos", {
+    return fetch("http://localhost:3000/productos", {
         method: "POST",
         headers: {
             "Content-Type": "application/json"
@@ -11,17 +11,17 @@ const crearProducto = (imagen, categoria, nombre, precio, descripcion) => {
 };
 
 const eliminarProducto = (id) => {
-    return fetch(`https://my-json-server.typicode.com/Gerakun/AluraGeek-challenge/productos/${id}`, {
+    return fetch(`http://localhost:3000/productos/${id}`, {
         method: "DELETE",
     });
 };
 
 const detalleProducto = (id) => {
-    return fetch(`https://my-json-server.typicode.com/Gerakun/AluraGeek-challenge/productos/${id}`).then((respuesta) => respuesta.json());
+    return fetch(`http://localhost:3000/productos/${id}`).then((respuesta) => respuesta.json());
 };
 
 const actualizarProducto = (imagen, categoria, nombre, precio, descripcion, id) => {
-    return fetch(`https://my-json-server.typicode.com/Gerakun/AluraGeek-challenge/productos/${id}`, {
+    return fetch(`http://localhost:3000/productos/${id}`, {
         method: "PUT",
         headers: {
             "Content-Type": "application/json"
